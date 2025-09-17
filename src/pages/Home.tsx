@@ -15,20 +15,20 @@ const Home = () => {
       <section className="container mx-auto px-6 py-20 text-center">
         <div className="max-w-4xl mx-auto space-y-8">
           <h1 className="text-5xl md:text-7xl font-bold text-foreground leading-tight">
-            Code.
-            <span className="text-primary">Create.</span>
+            Code
+            <span className="text-primary"> Smarter.</span>
             <br />
-            Innovate.
+            Engineer
+            <span className="text-primary"> Better.</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Professional portfolio showcasing cutting-edge projects and comprehensive 
-            courses in modern web development technologies.
+            We bridge knowledge and practice <br />Making engineering learning accessible while supporting real-world solutions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="bg-gradient-teal hover:shadow-teal">
+            <Button asChild variant="outline" size="lg" style={{borderColor: '#00adad'}}>
               <Link to="/projects">View Projects</Link>
             </Button>
-            <Button asChild variant="outline" size="lg">
+            <Button asChild variant="outline" size="lg" style={{borderColor: '#00adad'}}>
               <Link to="/courses">Browse Courses</Link>
             </Button>
           </div>
